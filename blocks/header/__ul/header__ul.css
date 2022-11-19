@@ -1,0 +1,7 @@
+.header__ul {
+
+    display: flex;
+    justify-content: space-between;
+margin: 0;
+    list-style-type: none;
+}

@@ -1,0 +1,10 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__ul/header__ul.css);
+
+
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/socials/__icon/socials__icon.css);
+
+
+@import url(../blocks/logo/logo.css);
