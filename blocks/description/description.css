@@ -1,6 +1,7 @@
 .description {
   display: flex;
-  flex-wrap: wrap;
-  width: 1140px;
-  height: 1405px;
+  justify-content: space-around;
+  /*flex-wrap: wrap;*/
+  /*width: 1140px;*/
+  /*height: 1405px;*/
 }

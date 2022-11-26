@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <link rel="stylesheet" href="pages/index.css">
   <meta charset="UTF-8">
@@ -28,52 +28,64 @@
   </div>
 </header>
 <main class="content">
-<section class="wallet">
-  <h1 class="wallet_title">Create your first
-    decentralized wallet</h1>
-  <p class="wallet_subtitle">The easiest way to manage multiple cryptocurrency assets</p>
-  <button class="wallet__button">Create wallet</button>
-  <img class="wallet__image" src="images/wallet-picture.svg" alt="Wallet Pic">
-</section>
+  <section class="wallet content__wallet">
+    <div class="wallet__create">
+      <h1 class="wallet_title">Create your first
+        decentralized wallet</h1>
+      <p class="wallet_subtitle">The easiest way to manage multiple cryptocurrency assets</p>
+      <button class="wallet_button">Create wallet</button>
+    </div>
+    <img class="wallet__image" src="images/wallet-picture.svg" alt="Wallet Pic">
+  </section>
 
-<div class="description">
-  <div class="description__about description_theme_gray">
-  <p class="description__specification">Dappy is light wallet powered by Blockstack. It uses Gaia decentralized storage and encryption option. Dappy doesn't store or proceed user private key, the all data are securely stored in the Gaia. Dappy was created by the BC Net that trust in crypto and decentralized applications.</p>
+  <div class="description">
+    <div class="description__left-column">
+    <div class="description__left-column_content_about description_theme_gray">
+      <p class="description__specification">Dappy is light wallet powered by
+        Blockstack. It uses Gaia decentralized storage and encryption option.
+        Dappy doesn't store or proceed user private key, the all data are
+        securely stored in the Gaia. Dappy was created by the BC Net that
+        trust in crypto and decentralized applications.</p>
+    </div>
+    <div class="display__left-column_content_free-and-open-source description_theme_gray">
+      <h2 class="description__title">Free and open source</h2>
+      <img src="images/free-and-open-source.svg" alt="Free and open source">
+      <p class="description__specification">Fully open and transparent wallet.
+        Our code is open source and trusted by Blockstack Team.</p>
+    </div>
+      <div class="description__left-column_content_roadmap description_theme_gray">
+        <h2 class="description__title">Roadmap</h2>
+      </div>
+    </div>
+
+    <div class="description__right-column">
+    <div class="description__right-column_content_multi-currencies description_theme_gray">
+      <h2 class="description__title">Multi-currencies</h2>
+      <img src="images/multi-currencies.svg" alt="multi-currencies">
+      <p class="description__specification">Receive, send and store the most
+        popular coins, like Bitcoin, Ethereum, Litecoin, Dash and lots
+        more.</p>
+    </div>
+    <div class="description__right-column_content_tokens description_theme_gray">
+      <h2 class="description__title">Tokens</h2>
+      <img src="images/tokens.svg" alt="Tokens">
+      <p class="description__specification">Full support for any tokens on
+        Ethereum network. Bitcoin tokens (Omnilayer) is coming soon.</p>
+    </div>
+
+    <div class="description__right-column_content_exchange description_theme_gray">
+      <h2 class="description__title">Exchange</h2>
+      <p class="description__specification">In-app exchange is supported by
+        ShapeShift, it allows to convert coins to each other in the most
+        intuitive and easiest way.</p>
+      <img src="images/exchange.svg" alt="Exchange">
+    </div>
+  </div>
   </div>
 
-  <div class="description__display__free-and-open-source description_theme_gray">
-  <h2 class="description__title">Free and open source</h2>
-    <img src="images/free-and-open-source.svg" alt="Free and open source">
-  <p class="description__specification">Fully open and transparent wallet. Our code is
-    open source and trusted by Blockstack Team.</p>
-  </div>
+  <footer class="footer">
 
-  <div class="description__multi-currencies description_theme_gray">
-    <h2 class="description__title">Multi-currencies</h2>
-    <img src="images/free-and-open-source.svg" alt="Free and open source">
-    <p class="description__specification">Receive, send and store the most popular coins, like Bitcoin, Ethereum, Litecoin, Dash and lots more.</p>
-  </div>
-
-  <div class="description__tokens description_theme_gray">
-    <h2 class="description__title">Tokens</h2>
-    <img src="images/tokens.svg" alt="Tokens">
-    <p class="description__specification">Full support for any tokens on Ethereum network.
-      Bitcoin tokens (Omnilayer) is coming soon.</p>
-  </div>
-
-  <div class="description__roadmap description_theme_gray">
-    <h2 class="description__title">Roadmap</h2>
-  </div>
-
-  <div class="description__exchange description_theme_gray">
-    <h2 class="description__title">Exchange</h2>
-    <p class="description__specification">In-app exchange is supported by ShapeShift, it allows to convert coins to each other in the most intuitive and easiest way.</p>
-    <img src="images/exchange.svg" alt="Exchange">
-
-</div>
-
-
-</div>
+  </footer>
 </main>
 </body>
 </html>

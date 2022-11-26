@@ -1,0 +1,7 @@
+.wallet__create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 383px;
+  height: 394px;
+}

@@ -13,18 +13,22 @@
 @import url(../blocks/socials/__icon/socials__icon.css);
 
 /* Section Wallet */
+@import url(../blocks/content/__wallet/content__wallet.css);
 @import url(../blocks/wallet/wallet.css);
-@import url(../blocks/wallet/__button/wallet__button.css);
+@import url(../blocks/wallet/__create/wallet__create.css);
+@import url(../blocks/wallet/__create/_content/wallet_button.css);
 @import url(../blocks/wallet/__image/wallet__image.css);
-@import url(../blocks/wallet/__title/wallet__title.css);
-@import url(../blocks/wallet/__subtitle/wallet__subtitle.css);
+@import url(../blocks/wallet/__create/_content/wallet_title.css);
+@import url(../blocks/wallet/__create/_content/wallet_subtitle.css);
 
 /* Description */
 @import url(../blocks/description/description.css);
-@import url(../blocks/description/__about/description__about.css);
+@import url(../blocks/description/__left-column/description__left-column.css);
+@import url(../blocks/description/__right-column/description__right-column.css);
+@import url(../blocks/description/__left-column/_content/description__left-column_content_about.css);
 @import url(../blocks/description/_theme/description_theme_gray.css);
-@import url(../blocks/description/__free-and-open-source/description__free-and-open-source.css);
-@import url(../blocks/description/__multi-currencies/description__multi-currencies.css);
-@import url(../blocks/description/__tokens/description__tokens.css);
-@import url(../blocks/description/__roadmap/description__roadmap.css);
-@import url(../blocks/description/__exchange/description__exchange.css);
+@import url(../blocks/description/__left-column/_content/description__left-column_content_free-and-open-source.css);
+@import url(../blocks/description/__right-column/_content/description__right-column_content_multi-currencies.css);
+@import url(../blocks/description/__right-column/_content/description__right-column_content_okens.css);
+@import url(../blocks/description/__left-column/_content/description__left-column_content_roadmap.css);
+@import url(../blocks/description/__right-column/_content/description__right-column_content_exchange.css);

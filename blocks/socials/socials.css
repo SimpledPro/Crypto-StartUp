@@ -1,4 +1,5 @@
 .socials {
-    width: 194px;
-    height: 24px;
+  display: flex;
+  width: 194px;
+  height: 24px;
 }
