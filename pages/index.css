@@ -32,3 +32,15 @@
 @import url(../blocks/description/__right-column/_content/description__right-column_content_okens.css);
 @import url(../blocks/description/__left-column/_content/description__left-column_content_roadmap.css);
 @import url(../blocks/description/__right-column/_content/description__right-column_content_exchange.css);
+
+/* Description backgrounds */
+@import url(../blocks/description/_backgrounds/_multi-currencies-bobls.css);
+@import url(../blocks/description/_backgrounds/_tokens-bobls.css);
+
+/* Animations */
+@import url(../blocks/animated/__multi-currencies/animated__multi-currencies_ellipse-3.css);
+@import url(../blocks/animated/__multi-currencies/animated__multi-currencies_ellipse-3_1.css);
+@import url(../blocks/animated/__multi-currencies/animated__multi-currencies_ellipse-3_2.css);
+@import url(../blocks/animated/__multi-currencies/animated__multi-currencies_ellipse-3_3.css);
+@import url(../blocks/animated/__multi-currencies/animated__multi-currencies_ellipse-3_4.css);
+@import url(../blocks/animated/__multi-currencies/animated__multi-currencies_air.css);

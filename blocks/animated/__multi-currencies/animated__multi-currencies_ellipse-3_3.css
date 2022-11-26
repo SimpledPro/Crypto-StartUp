@@ -1,0 +1,10 @@
+.animated__multi-currencies_ellipse-3_3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  z-index: 1;
+  left: 69px;
+  bottom: 79px;
+  background-size: cover;
+  background-image: url(../../../images/multi-currencies-components/multi-currencies-ellipse-3_3.svg)
+}
